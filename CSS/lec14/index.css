@@ -1,0 +1,44 @@
+h2{
+text-align: center;
+font-size: larger;
+font-family:'Courier New', Courier, monospace;
+font-style: oblique;
+
+}
+#para1{
+
+     font-style: unset;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font: 20px sans-serif;
+}
+
+.first{
+
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 600;
+font-variant:small-caps;
+
+}
+
+*{
+
+
+color: rgb(0, 110, 255);
+
+}
+
+#para1{
+     background: #3eff0394;
+
+}
+#para2{
+background: yellow;
+
+}
+#para3{
+     background: rgba(45, 133, 140, 0.421);
+}
+#para4{
+     background: orange;
+
+}

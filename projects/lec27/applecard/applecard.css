@@ -1,0 +1,113 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     
+}
+
+.container{
+     height: 100vh;
+     width: 100vw;
+     background-color: #52ACFF;
+background-image: linear-gradient(180deg, #52ACFF 25%, #FFE32C 100%);
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.box{
+     height: 600px;
+     width: 450px;
+     background-color: #fff;
+     border-radius: 30px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+img{
+     height: 200px;
+     width: 450px;
+     border-top-left-radius: 30px;
+     border-top-right-radius: 30px;
+}
+h2{
+     margin-top: 5px;
+     padding-top: 13px;
+}
+p{
+     margin-left: 40px;
+     margin-right: 40px;
+     margin-top: 10px;
+     padding: 10px;
+     font-size: 20px;
+     text-align:center;
+     
+}
+#music{
+     height: 70px;
+     width: 70px;
+}
+.plan{
+     display: flex;
+     background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+height: 60px;
+width: 350px;
+border-radius: 20px;
+justify-content: space-between;
+align-items: center;
+
+}
+.price{
+     display: flex;
+}
+h3{
+     margin: 13px;
+}
+#change{
+     margin-right: 35px;
+     font-size: 25px;
+}
+
+.processto{
+     background: #0f0b30;
+     height: 60px;
+     width: 350px;
+     border-radius: 10px;
+     margin-top: 15px;
+     color:white;
+     transition: height,width 0s linear 0s;
+     
+
+}
+.cancel{
+     margin: 30px;
+     margin-left: 75px;
+}
+#cancle{
+     text-decoration: none;
+     color: black;
+     font-weight: bold;
+     font-size: large;
+    transition: font-size 0s linear 0s;
+}
+.processto a{
+     text-decoration: none;
+     color: white;
+     font-weight: bold;
+     font-size: large;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 15px;
+     
+
+}
+#cancle:hover{
+     font-size: x-large;
+}
+
+.processto:hover{
+     height:70px;
+     width: 400px;
+}

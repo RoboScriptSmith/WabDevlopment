@@ -1,0 +1,53 @@
+
+
+     
+
+p{
+
+border: 1px solid rgb(4, 4, 16);
+margin: 20px 20px 20px 20px;
+padding: 20px 20px 20px 20px;
+border-radius: 10px;
+background-color: #e7b7b7 !important;
+text-align: justify;
+}
+
+#sp1{
+border: 1px solid rgb(0, 0, 0);
+display: block;
+margin: 20px 20px 20px 20px;
+padding: 20px 20px 20px 20px;
+border-radius: 10px;
+background: #80b72d !important;
+text-align: justify;
+
+}
+a{
+
+border: 2px solid rebeccapurple;
+display: block;
+margin: 20px 20px 20px 20px;
+padding: 20px 20px 20px 20px;
+border-radius: 10px;
+background-color: #9b688c !important;
+text-align: justify;
+
+}
+
+#position{
+
+border: 2px solid rebeccapurple;
+display: block;
+margin: 20px 20px 20px 20px;
+padding: 20px 20px 20px 20px;
+border-radius: 10px;
+background-color: #4e61db !important;
+text-align: center;
+
+
+}
+body {
+     background-image: url('v708-aum-24-b-diwali.jpg');
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+   }

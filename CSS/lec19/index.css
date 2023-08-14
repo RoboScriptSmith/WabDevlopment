@@ -1,0 +1,16 @@
+#id1{
+float:right;
+padding-left: 6px;
+
+}
+p{
+
+text-align: justify;
+
+}
+#id2{
+     float: left;
+     clear: right;
+     padding-right: 6px;
+
+}

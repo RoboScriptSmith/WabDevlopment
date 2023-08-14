@@ -1,0 +1,92 @@
+.container{
+     border: 1px solid black;
+     height: 700px;
+     background-color: #d7e4ae;
+     display: flex;
+     
+}
+.box{
+     border: 1px solid black;
+     height: 70px;
+     width: 100px;
+     margin: 6px;
+     padding: 6px;
+     background-color: #247d93;
+     border-radius: 15px;
+     position:relative;
+     animation-name: example;
+     animation-duration: 4s;
+     animation-iteration-count: infinite;
+     animation-direction: alternate ;
+     animation-timing-function: linear;
+}
+
+.box2{
+     border: 1px solid black;
+     height: 70px;
+     width: 100px;
+     margin: 6px;
+     padding: 6px;
+     background-color: #a88b16;
+     border-radius: 15px;
+     position:relative;
+     animation-name:example2 ;
+     animation-duration: 4s;
+     animation-iteration-count: infinite;
+     animation-direction: alternate ;
+     animation-timing-function: linear;
+    
+     
+}
+
+.circle{
+     border: 1px solid black;
+     height: 80px;
+     width: 80px;
+     margin: 6px;
+     padding: 6px;
+     background-color: #0e0c03;
+     border-radius: 50px;
+     position: relative;
+     top: 300px;
+     left: 560px;
+     animation-name:example3 ;
+     animation-duration: 4s;
+     animation-iteration-count: infinite;
+     animation-direction: alternate ;
+     animation-timing-function:ease-in-out;
+
+}
+
+
+@keyframes example{
+     
+         from{
+          top:0;
+          left:0;
+         }
+     to{
+          top:0;
+          left:1550px
+
+
+          }     }
+     @keyframes example2{
+     
+          from{
+           top:600px;
+           left:1350px;
+          }
+      to{
+           top:600px;
+           left:0px
+ 
+ 
+      }
+}
+@keyframes example3{
+     0%   {background-color:red; left:2%; top:1%;}
+     30%  {background-color:yellow; left:70%; top:5%;}
+     60%  {background-color:blue; left:10%; top:70%;}
+         100% {background-color:red; left:70%; top:75%;}
+}
